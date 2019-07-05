@@ -1,0 +1,231 @@
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.item{
+	width: 1200px;
+	background-color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	display: block;
+}
+
+header{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-top: 25px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    max-width: 100%;
+    width: 175px;
+}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    padding: 0;
+    text-align: right;
+    margin-top: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+   
+    padding: 10px 21px;
+    color: #b0a8a8;
+}
+    nav ul li a:hover{
+        background-color: #D1D1D3;
+        color:#fff;
+
+    }
+    .active{
+        background-color: #06528A;
+        color:#fff;
+    }
+
+    .item img{
+    	width: 1200px;
+    }
+
+    .box-1{
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+        display: block;
+        padding-top: 50px;
+    }
+
+    .box-1 h6{}
+    .box-1 h1{
+        font-size: 30px;
+    }
+    .box-1 p{}
+
+    .box-2{
+       width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+        display: block;
+        padding-bottom: 30px;
+        
+    }
+
+    .box-2 .img-2{
+        width: 478px;
+        margin-right: 40px;
+        
+    }
+
+     .box-2 .img-3{
+        width: 472px;
+       
+    }
+
+    .text-2{
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+        display: block;
+        padding-top: 50px;
+    }
+
+    .box-3{
+        width: 478px;
+        margin-right: 40px;
+        
+    }
+
+     .box-3a{
+        width: 472px;
+       
+    }
+    .lifestyle{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .lifestyle-box{
+        width: 450px;
+        float: left;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        padding-top: 80px;;
+    }
+    .lifestyle-box img{
+        width: 450px;
+        height: 311px;
+
+    }
+    .lifestyle-box h6{
+        margin-top:10px;
+    }
+
+    .signup{
+    background-color: #ddd;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    }
+
+    .loadMoreButton{        
+        width: 200px;
+        margin:0 auto;
+    }
+    .loadMoreButton button{
+    outline: 0;
+    border-color: black;
+    background-color: white;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 100;
+    width: 140px;
+    margin-bottom: 60px;
+    margin-top:60px;
+
+    }
+    .loadMoreButton button:hover{
+        background-color: black;
+        color:#fff;        
+    }
+    footer{
+        background-color: #ddd;        
+    }
+    .footer{       
+    text-align: left;
+    margin: 0 auto;
+    width: 1200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+     overflow: hidden;
+        display: block;
+    }
+    .terms{
+        width: 310px;
+        float:left;        
+    }    
+    .terms ul li{
+    list-style-type: none; 
+    float:left;   
+}
+    .terms ul li a{    
+    display: block;
+  color: #000;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+ .terms ul li a:hover{
+    color:#292A2B;
+    font-weight: bold;
+  }
+
+.social{
+    width: 410px;
+    float: right;      
+    }    
+    .social ul li{
+    list-style-type: none; 
+    float:left;   
+}
+    .social ul li a{    
+    display: block;
+  color: #000;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.social ul li a:hover{
+    color:#292A2B;
+    font-weight: bold;
+ }
+
+
+
+    
